@@ -47,7 +47,6 @@ Requires MATLAB with the Signal Processing Toolbox.
 
 1. Clone the repository and open the folder in MATLAB.
 2. Run `main.m` (or the script for the stage you want).
-3. Input audio is not included. Use your own 16 kHz mono `.wav` recording.
 
 ## Notes
 
