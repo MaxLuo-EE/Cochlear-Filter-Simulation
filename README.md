@@ -46,7 +46,8 @@ A MATLAB model of the human cochlea built as an individual mini-project for **EL
 Requires MATLAB with the Signal Processing Toolbox.
 
 1. Clone the repository and open the folder in MATLAB.
-2. Run `main.m` (or the script for the stage you want).
+2. Run auditoryInitialisation.m
+3. Run desired sub-stage
 
 ## Notes
 
