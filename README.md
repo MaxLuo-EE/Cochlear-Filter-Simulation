@@ -15,30 +15,6 @@ A MATLAB model of the human cochlea built as an individual mini-project for **EL
 | **5. Pitch detection** | Fundamental frequency is estimated from the spectrum analyser's energy output, after removing the vocal tract response with 12th-order LPC. I also tested band-limited, telephone-style speech with the fundamental removed, and recovered the missing fundamental with a nonlinear stage followed by a bandpass filter. |
 | **6. Adaptive cochlear model** | A second bank of resonant filters whose Q factor changes with the signal level, measured as energy over 5 ms frames. Quiet input gets a higher Q, which boosts weak components, and the original filter coefficients are left unchanged. |
 
-## Results
-
-<!-- TODO: replace this section with your own results and figures. Suggested items:
-     - Magnitude responses of 10 selected analysis filters (centre frequencies normalised to 0 dB)
-     - IIR vs FIR response for one filter (e.g. filter 71 or 72, about 1 kHz), 160 vs 300 taps
-     - Combined analysis and synthesis phase response (linear phase)
-     - Spectrum analyser output for a sum of sinusoids
-     - Pitch track f0 for your own recorded sentence
-     - Q-factor vs input level for the adaptive model
-     Add one sentence under each figure saying what it shows. -->
-
-## Repository layout
-
-<!-- TODO: edit to match your actual files -->
-```
-.
-├── README.md
-├── filterbank/       % IIR design, FIR conversion, analysis/synthesis banks
-├── denoising/        % subband gain control
-├── spectrum/         % spectrum analyser and hair cell models
-├── pitch/            % LPC, pitch estimation, missing fundamental
-├── adaptive/         % adaptive-Q model
-└── figures/
-```
 
 ## How to run
 
